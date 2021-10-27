@@ -31,7 +31,7 @@ class RedirectsTo extends Constraint
     /**
      * {@inheritDoc}
      */
-    public function evaluate($other, $description = '', $returnResult = false)
+    public function evaluate($other, $description = '', $returnResult = false): bool|null
     {
         $stack = [];
 
